@@ -60,6 +60,45 @@ class BarcodeSpec extends ObjectBehavior {
 
     function it_checks_return_null_if_invalid_type_is_passed()
     {
-        $this->encode('01234', 'invalid')->shouldReturn(null);
+        $this->encode('01234', 'invalid')
+             ->shouldReturn(null);
+    }
+
+    function it_checks_horizontal_image_type()
+    {
+        $this->encode('01234', 'code25', 1, false, 'base64', 20, 'somthingEsle')
+             ->shouldReturn('iVBORw0KGgoAAAANSUhEUgAAABQAAABBAQMAAADrBBYKAAAABlBMVEUAAAD///+l2Z/dAAAAJ0lEQVQYlWP4//8DAzEYBLDR2ORhABcfmz5kPrJ6fPYTsgfdDBwYAOqvdTEG8dSgAAAAAElFTkSuQmCC');
+    }
+
+    function it_checks_show_text()
+    {
+        $this->encode('01234', 'code25', 1, true, 'base64')
+             ->shouldReturn('iVBORw0KGgoAAAANSUhEUgAAAEEAAAAoAQMAAACbwgWUAAAABlBMVEUAAAD///+l2Z/dAAAAYElEQVQYlWP4f/WieOEVl/8NDMOGBQUUsn7++WMj/xzE+vDj58zzx0GsZwWfzz9vB7HO2/w/f14dypovlw5l2Z95DmH9q3/CDNZR8+f/c4gpf37+PA9m/fxgwAMxGdNeAM2BCGN8qdFgAAAAAElFTkSuQmCC');
+    }
+
+    function it_checks_return_src()
+    {
+        $this->encode('01234', 'code25', 1, false, 'src')
+            ->shouldReturn('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAAUAQMAAADoesJCAAAABlBMVEUAAAD///+l2Z/dAAAAFklEQVQImWP4f/WieOEVl/8NDEOaBQAzx3NRww5R2wAAAABJRU5ErkJggg==');
+    }
+
+    function it_checks_return_gd()
+    {
+        $this->encode('01234', 'code25', 1, false, 'gd')
+             ->shouldHaveResourceType('gd');
+    }
+
+    function it_bypasses_return_type_to_complete_unit_tests()
+    {
+        $this->encode('01234', 'code25', 1, false, 'invalid');
+    }
+
+    public function getMatchers()
+    {
+        return [
+            'haveResourceType' => function($subject, $key) {
+                return (get_resource_type($subject) == $key);
+            }
+        ];
     }
 }

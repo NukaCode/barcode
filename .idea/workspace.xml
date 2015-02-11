@@ -4,7 +4,15 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a055af32-fd49-4360-9b2f-b68d24488205" name="Default" comment="" />
+    <list default="true" id="a055af32-fd49-4360-9b2f-b68d24488205" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Barcode.php.html" afterPath="$PROJECT_DIR$/coverage/Barcode.php.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php" afterPath="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage.xml" afterPath="$PROJECT_DIR$/coverage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/dashboard.html" afterPath="$PROJECT_DIR$/coverage/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/index.html" afterPath="$PROJECT_DIR$/coverage/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="barcode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,16 +30,17 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="barcode" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BarcodeFacade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/BarcodeFacade.php">
+      <file leaf-file-name="BarcodeSpec.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="786">
-              <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.610687" vertical-offset="1158" max-vertical-offset="1944">
+              <caret line="92" column="61" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -61,10 +70,10 @@
         <option value="$PROJECT_DIR$/phpspec.yml" />
         <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Barcode.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php" />
         <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Laravel5/Facade.php" />
         <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Laravel5/ServiceProvider.php" />
+        <option value="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php" />
+        <option value="$PROJECT_DIR$/test.php" />
       </list>
     </option>
   </component>
@@ -335,17 +344,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76893455" vertical-offset="13" max-vertical-offset="792">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="809">
@@ -453,31 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Barcode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16030534" vertical-offset="0" max-vertical-offset="3420">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13740458" vertical-offset="0" max-vertical-offset="786">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2824427" vertical-offset="0" max-vertical-offset="1242">
-          <caret line="57" column="165" selection-start-line="56" selection-start-column="165" selection-end-line="56" selection-end-column="165" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/BarcodeServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20610687" vertical-offset="0" max-vertical-offset="1530">
@@ -490,6 +463,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="786">
           <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76893455" vertical-offset="13" max-vertical-offset="792">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Barcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.7557251" vertical-offset="0" max-vertical-offset="3420">
+          <caret line="164" column="41" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.114503816" vertical-offset="0" max-vertical-offset="786">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.610687" vertical-offset="1158" max-vertical-offset="1944">
+          <caret line="92" column="61" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
           <folding />
         </state>
       </provider>
