@@ -1,8 +1,8 @@
 php-barcode
 ===========
 
-Forked from davidscotttufts/php-barcode
-http://davidscotttufts.com/2009/03/31/how-to-create-barcodes-in-php/
+Forked from davidscotttufts/php-barcode and MFlor/php-barcode
+https://github.com/MFlor/php-barcode
 
 Class for generating barcodes in four barcode formats including Code 128, Code 39, Code 2of5 and Codabar
 
@@ -37,8 +37,3 @@ Returntype
 
 
 `gd` returns the PHP image resource.
-
-
-
-Thanks to davidscotttufts for an awesome script!
------------------------------------------------

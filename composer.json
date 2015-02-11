@@ -1,0 +1,30 @@
+{
+    "name": "NukaCode/Barcode",
+    "description": "Generate a barcode",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RiDdLeS",
+            "email": "riddles@dev-toolbox.com"
+        },
+        {
+            "name": "Magnus Flor"
+        },
+        {
+            "name": "David Tufts"
+        }
+    ],
+    "require": {
+        "ext-gd": "0.0.0.*"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1",
+        "henrikbjorn/phpspec-code-coverage": "~0.2"
+    },
+    "autoload":    {
+        "psr-4":    {
+            "NukaCode\\Barcode\\": "src/NukaCode/Barcode"
+        }
+    },
+    "minimum-stability": "dev"
+}
