@@ -4,15 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a055af32-fd49-4360-9b2f-b68d24488205" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NukaCode/Barcode/Laravel5/Facade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NukaCode/Barcode/Laravel5/ServiceProvider.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phpspec.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Barcode.class.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="a055af32-fd49-4360-9b2f-b68d24488205" name="Default" comment="" />
     <ignored path="barcode.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -35,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BarcodeSpec.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php">
+      <file leaf-file-name="BarcodeFacade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/BarcodeFacade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7315522" vertical-offset="433" max-vertical-offset="1242">
-              <caret line="57" column="165" selection-start-line="57" selection-start-column="165" selection-end-line="57" selection-end-column="165" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="786">
+              <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -66,13 +58,13 @@
         <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Barcode.class.php" />
         <option value="$PROJECT_DIR$/tests/specs/BarcodeSpec.php" />
         <option value="$PROJECT_DIR$/tests/spec/BarcodeSpec.php" />
-        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Laravel5/ServiceProvider.php" />
-        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Laravel5/Facade.php" />
         <option value="$PROJECT_DIR$/phpspec.yml" />
         <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Barcode.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php" />
+        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Laravel5/Facade.php" />
+        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Laravel5/ServiceProvider.php" />
       </list>
     </option>
   </component>
@@ -202,32 +194,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="barcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="barcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NukaCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Barcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Laravel5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -239,8 +205,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests/spec/NukaCode/Barcode" />
       <recent name="$PROJECT_DIR$/src/NukaCode/Barcode" />
+      <recent name="$PROJECT_DIR$/tests/spec/NukaCode/Barcode" />
       <recent name="$PROJECT_DIR$/src/nukacode" />
     </key>
   </component>
@@ -287,7 +253,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -300,7 +266,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39925835" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -436,14 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Laravel5/Facade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18320611" vertical-offset="0" max-vertical-offset="786">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20088">
@@ -459,14 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="809">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Laravel5/ServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06870229" vertical-offset="0" max-vertical-offset="1530">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -522,8 +472,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7315522" vertical-offset="433" max-vertical-offset="1242">
-          <caret line="57" column="165" selection-start-line="57" selection-start-column="165" selection-end-line="57" selection-end-column="165" />
+        <state vertical-scroll-proportion="1.2824427" vertical-offset="0" max-vertical-offset="1242">
+          <caret line="57" column="165" selection-start-line="56" selection-start-column="165" selection-end-line="56" selection-end-column="165" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/BarcodeServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20610687" vertical-offset="0" max-vertical-offset="1530">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/BarcodeFacade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="786">
+          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
           <folding />
         </state>
       </provider>
