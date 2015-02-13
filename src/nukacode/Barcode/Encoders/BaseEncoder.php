@@ -2,6 +2,8 @@
 
 abstract class BaseEncoder implements Encoder {
 
+    protected $validateRegEx;
+
     /**
      * Validate the code
      *
