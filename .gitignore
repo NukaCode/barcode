@@ -5,3 +5,4 @@ coverage.xml
 ocular.phar
 atlassian-ide-plugin.xml
 test.php
+composer.lock
