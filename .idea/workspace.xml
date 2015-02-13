@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a055af32-fd49-4360-9b2f-b68d24488205" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/BaseEncoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Codabar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Encoders/CodabarSpec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Code128.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Encoders/Code128Spec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Code25.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Encoders/Code25Spec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Code39.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Encoders/Code39Spec.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Encoder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/NukaCode/Barcode/Generate.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/Barcode.php.html" afterPath="$PROJECT_DIR$/coverage/Barcode.php.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php" afterPath="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/BarcodeFacade.php.html" afterPath="$PROJECT_DIR$/coverage/BarcodeFacade.php.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/BarcodeServiceProvider.php.html" afterPath="$PROJECT_DIR$/coverage/BarcodeServiceProvider.php.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/barcode.iml" afterPath="$PROJECT_DIR$/.idea/barcode.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage.xml" afterPath="$PROJECT_DIR$/coverage.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/dashboard.html" afterPath="$PROJECT_DIR$/coverage/dashboard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coverage/index.html" afterPath="$PROJECT_DIR$/coverage/index.html" />
@@ -36,11 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BarcodeSpec.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php">
+      <file leaf-file-name="BaseEncoder.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/BaseEncoder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.610687" vertical-offset="1158" max-vertical-offset="1944">
-              <caret line="92" column="61" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.20610687" vertical-offset="0" max-vertical-offset="786">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -57,31 +70,58 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Barcode.class.php" />
-        <option value="$PROJECT_DIR$/src/nukacode/Barcode.class.php" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/nukacode/Laravel5/ServiceProvider.php" />
-        <option value="$PROJECT_DIR$/src/nukacode/Laravel5/Facade.php" />
-        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Barcode.class.php" />
-        <option value="$PROJECT_DIR$/tests/specs/BarcodeSpec.php" />
-        <option value="$PROJECT_DIR$/tests/spec/BarcodeSpec.php" />
-        <option value="$PROJECT_DIR$/phpspec.yml" />
-        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Barcode.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Laravel5/Facade.php" />
-        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Laravel5/ServiceProvider.php" />
-        <option value="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php" />
+        <option value="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Generators/Codabar.php" />
+        <option value="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Generators/Code39.php" />
+        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Generators/Generator.php" />
+        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Generators/GeneratorInterface.php" />
+        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Generators/BaseGenerator.php" />
+        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Generators/Codabar.php" />
+        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Generators/Code25.php" />
+        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Generators/Code39.php" />
+        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Generators/Code128.php" />
+        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Encoder.php" />
+        <option value="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Generators/Code25Spec.php" />
+        <option value="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Generators/Code128Spec.php" />
+        <option value="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Generators/CodabarSpec.php" />
+        <option value="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Generators/Code39Spec.php" />
+        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/BaseEncoder.php" />
+        <option value="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Encoders/Code25Spec.php" />
+        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Code39.php" />
+        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Codabar.php" />
+        <option value="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Encoders/Code39Spec.php" />
+        <option value="$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Encoders/CodabarSpec.php" />
         <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Code25.php" />
+        <option value="$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Code128.php" />
       </list>
     </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="873" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PHP</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -109,6 +149,67 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Tests" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="barcode">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="barcode">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="tests/spec/NukaCode/Barcode">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="barcode">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="tests/spec/NukaCode/Barcode">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Encoders">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="barcode">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,6 +292,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NukaCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Barcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Encoders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="barcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="barcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -203,14 +334,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="barcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="barcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NukaCode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Barcode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Encoders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="settings.pastebin" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -219,9 +379,30 @@
       <recent name="$PROJECT_DIR$/src/nukacode" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.tests">
+    <configuration default="false" name="tests" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/tests" />
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <option name="name" value="" />
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
@@ -234,18 +415,31 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
-      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="8387e800-01e9-4e9c-872c-53d543e388bc" server_name="Glass">
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.tests" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.tests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -265,24 +459,25 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39925835" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21816881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3275649" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39925835" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -307,12 +502,69 @@
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="atlassian-ide-plugin-workspace">
+    <option name="bambooConfiguration">
+      <BambooWorkspaceConfiguration>
+        <option name="view">
+          <BambooViewConfigurationBean />
+        </option>
+      </BambooWorkspaceConfiguration>
+    </option>
+    <option name="defaultCredentials">
+      <UserCfgBean />
+    </option>
+  </component>
+  <component name="atlassian-ide-plugin-workspace-issues">
+    <option name="view">
+      <JiraViewConfigurationBean>
+        <option name="viewFilterId" value="" />
+      </JiraViewConfigurationBean>
+    </option>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Encoders/Code39Spec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="612">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <marker date="1423724729000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Barcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="3420">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Code25.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="990">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Code39.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="684">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Barcode.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1466" max-vertical-offset="3420">
           <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -320,35 +572,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="882">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="779">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_namespaces.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="809">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -356,7 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -364,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.7862595" vertical-offset="1404" max-vertical-offset="7398">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -372,7 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="809">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -380,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20556">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -388,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.022900764" vertical-offset="18" max-vertical-offset="4644">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -396,26 +641,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="809">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20088">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="809">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -427,19 +669,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpspec.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.289246" vertical-offset="0" max-vertical-offset="809">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coverage/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2754">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -447,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18320611" vertical-offset="0" max-vertical-offset="786">
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -455,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20610687" vertical-offset="0" max-vertical-offset="1530">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -463,45 +694,447 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="786">
           <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.76893455" vertical-offset="13" max-vertical-offset="792">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file:///Applications/WebControl.app/Contents/Resources/phpmyadmin_installer.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2447466" vertical-offset="0" max-vertical-offset="918">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Barcode.php">
+    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Generate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.7557251" vertical-offset="0" max-vertical-offset="3420">
-          <caret line="164" column="41" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="41" />
-          <folding />
+        <state vertical-scroll-proportion="0.06870229" vertical-offset="0" max-vertical-offset="786">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16030534" vertical-offset="72" max-vertical-offset="1944">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.114503816" vertical-offset="0" max-vertical-offset="786">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          <folding />
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/spec/NukaCode/Barcode/BarcodeSpec.php">
+    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Encoder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.610687" vertical-offset="1158" max-vertical-offset="1944">
-          <caret line="92" column="61" selection-start-line="92" selection-start-column="61" selection-end-line="92" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.16030534" vertical-offset="0" max-vertical-offset="786">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Barcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61989796" vertical-offset="0" max-vertical-offset="3420">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="807">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Encoders/Code128Spec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18367347" vertical-offset="0" max-vertical-offset="784">
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Encoders/Code39Spec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.96737045" vertical-offset="0" max-vertical-offset="612">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <marker date="1423724729000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423724729000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Encoders/CodabarSpec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48091602" vertical-offset="0" max-vertical-offset="786">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <marker date="1423725705000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1423725705000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423725705000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423725705000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423725705000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423725705000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423725705000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423725705000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423725705000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/spec/NukaCode/Barcode/Encoders/Code25Spec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5038168" vertical-offset="0" max-vertical-offset="786">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <marker date="1423723631000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1423723631000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423723631000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423723631000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423723631000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423723631000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423723631000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Codabar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9541985" vertical-offset="60" max-vertical-offset="936">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <marker date="1423725671000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423725671000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423725671000" expanded="true" signature="-1:-1" placeholder=" Uppercase letters (A through D), numeric digits (0 through 9) ..." />
+            <marker date="1423725671000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423725671000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423725671000" expanded="true" signature="-1:-1" placeholder=" Code39 does not contain a check digit. ..." />
+            <marker date="1423725671000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Code25.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27480915" vertical-offset="144" max-vertical-offset="990">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1423767377000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423767377000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423767377000" expanded="true" signature="-1:-1" placeholder=" Uppercase letters (A through D), numeric digits (0 through 9) ..." />
+            <marker date="1423767377000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423767377000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423767377000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423767377000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423767377000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423767377000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Code39.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64122134" vertical-offset="0" max-vertical-offset="1026">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <marker date="1423724638000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423724638000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423724638000" expanded="true" signature="-1:-1" placeholder=" Uppercase letters (A through Z), numeric digits (0 through 9) ..." />
+            <marker date="1423724638000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423724638000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423724638000" expanded="true" signature="-1:-1" placeholder=" Code39 does not contain a check digit. ..." />
+            <marker date="1423724638000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/Code128.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70229006" vertical-offset="42" max-vertical-offset="1098">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <marker date="1423780402000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423780402000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423780402000" expanded="true" signature="-1:-1" placeholder=" Uppercase letters (A through D), numeric digits (0 through 9) ..." />
+            <marker date="1423780402000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1423780402000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1423780402000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/php/php-barcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9541985" vertical-offset="12894" max-vertical-offset="20340">
+          <caret line="772" column="24" selection-start-line="772" selection-start-column="24" selection-end-line="772" selection-end-column="24" />
+          <folding>
+            <marker date="1357523978000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1357523978000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpspec.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.289246" vertical-offset="0" max-vertical-offset="809">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding>
+            <marker date="1423594554000" expanded="true" signature="-1:-1" placeholder="suites:" />
+            <marker date="1423594554000" expanded="true" signature="-1:-1" placeholder="barcpde:" />
+            <marker date="1423594554000" expanded="true" signature="-1:-1" placeholder="extensions:" />
+            <marker date="1423594554000" expanded="true" signature="-1:-1" placeholder="code_coverage:" />
+            <marker date="1423594554000" expanded="true" signature="-1:-1" placeholder="format:" />
+            <marker date="1423594554000" expanded="true" signature="-1:-1" placeholder="output:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis-phpspec.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="809">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1423786076000" expanded="true" signature="-1:-1" placeholder="php:" />
+            <marker date="1423786076000" expanded="true" signature="-1:-1" placeholder="matrix:" />
+            <marker date="1423786076000" expanded="true" signature="-1:-1" placeholder="allow_failures:" />
+            <marker date="1423786076000" expanded="true" signature="-1:-1" placeholder="before_script:" />
+            <marker date="1423786076000" expanded="true" signature="-1:-1" placeholder="script:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.scrutinizer.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="809">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1423786060000" expanded="true" signature="-1:-1" placeholder="tools:" />
+            <marker date="1423786060000" expanded="true" signature="-1:-1" placeholder="php_analyzer:" />
+            <marker date="1423786060000" expanded="true" signature="-1:-1" placeholder="config:" />
+            <marker date="1423786060000" expanded="true" signature="-1:-1" placeholder="symfony_request_injection:" />
+            <marker date="1423786060000" expanded="true" signature="-1:-1" placeholder="php_cs_fixer:" />
+            <marker date="1423786060000" expanded="true" signature="-1:-1" placeholder="config:" />
+            <marker date="1423786060000" expanded="true" signature="-1:-1" placeholder="checks:" />
+            <marker date="1423786060000" expanded="true" signature="-1:-1" placeholder="php:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NukaCode/Barcode/Encoders/BaseEncoder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20610687" vertical-offset="0" max-vertical-offset="786">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

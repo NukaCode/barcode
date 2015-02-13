@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1423629432">
-  <project timestamp="1423629432">
+<coverage generated="1423780434">
+  <project timestamp="1423780434">
     <package name="NukaCode\Barcode">
       <file name="/Users/riddles/code/barcode/src/NukaCode/Barcode/Barcode.php">
         <class name="Barcode" namespace="NukaCode\Barcode">
@@ -168,7 +168,109 @@
         <line num="78" type="stmt" count="0"/>
         <metrics loc="79" ncloc="42" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="22" coveredstatements="0" elements="28" coveredelements="0"/>
       </file>
+      <file name="/Users/riddles/code/barcode/src/NukaCode/Barcode/Generate.php">
+        <class name="Generate" namespace="NukaCode\Barcode">
+          <metrics methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+        </class>
+        <line num="5" type="method" name="render" crap="2" count="0"/>
+        <line num="6" type="stmt" count="0"/>
+        <line num="8" type="stmt" count="0"/>
+        <metrics loc="8" ncloc="8" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="3" coveredelements="0"/>
+      </file>
     </package>
-    <metrics files="3" loc="282" ncloc="219" classes="3" methods="12" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="136" coveredstatements="111" elements="148" coveredelements="116"/>
+    <package name="NukaCode\Barcode\Encoders">
+      <file name="/Users/riddles/code/barcode/src/NukaCode/Barcode/Encoders/BaseEncoder.php">
+        <class name="BaseEncoder" namespace="NukaCode\Barcode\Encoders">
+          <metrics methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+        </class>
+        <line num="12" type="method" name="validateCode" crap="2" count="6"/>
+        <line num="14" type="stmt" count="6"/>
+        <line num="15" type="stmt" count="3"/>
+        <line num="17" type="stmt" count="3"/>
+        <metrics loc="17" ncloc="10" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/Users/riddles/code/barcode/src/NukaCode/Barcode/Encoders/Codabar.php">
+        <class name="Codabar" namespace="NukaCode\Barcode\Encoders">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+        </class>
+        <line num="21" type="method" name="encode" crap="2" count="2"/>
+        <line num="23" type="stmt" count="2"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="43" type="method" name="getChecksum" crap="1" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <metrics loc="46" ncloc="33" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+      </file>
+      <file name="/Users/riddles/code/barcode/src/NukaCode/Barcode/Encoders/Code128.php">
+        <class name="Code128" namespace="NukaCode\Barcode\Encoders">
+          <metrics methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="11" elements="14" coveredelements="12"/>
+        </class>
+        <line num="35" type="method" name="encode" crap="2" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="47" type="stmt" count="1"/>
+        <line num="49" type="stmt" count="1"/>
+        <line num="52" type="method" name="getChecksum" crap="2" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <metrics loc="55" ncloc="49" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="11" elements="14" coveredelements="12"/>
+      </file>
+      <file name="/Users/riddles/code/barcode/src/NukaCode/Barcode/Encoders/Code25.php">
+        <class name="Code25" namespace="NukaCode\Barcode\Encoders">
+          <metrics methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="17" elements="20" coveredelements="18"/>
+        </class>
+        <line num="18" type="method" name="encode" crap="5" count="2"/>
+        <line num="20" type="stmt" count="2"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="40" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="46" type="method" name="getChecksum" crap="2" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <metrics loc="49" ncloc="41" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="18" coveredstatements="17" elements="20" coveredelements="18"/>
+      </file>
+      <file name="/Users/riddles/code/barcode/src/NukaCode/Barcode/Encoders/Code39.php">
+        <class name="Code39" namespace="NukaCode\Barcode\Encoders">
+          <metrics methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+        </class>
+        <line num="26" type="method" name="encode" crap="2" count="2"/>
+        <line num="28" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="48" type="method" name="getChecksum" crap="1" count="1"/>
+        <line num="50" type="stmt" count="1"/>
+        <metrics loc="51" ncloc="38" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+      </file>
+    </package>
+    <file name="/Users/riddles/code/barcode/src/NukaCode/Barcode/Encoders/Encoder.php">
+      <metrics loc="7" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="10" loc="515" ncloc="405" classes="9" methods="22" coveredmethods="12" conditionals="0" coveredconditionals="0" statements="187" coveredstatements="158" elements="209" coveredelements="170"/>
   </project>
 </coverage>
