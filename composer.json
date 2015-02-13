@@ -23,7 +23,7 @@
     },
     "autoload":    {
         "psr-4":    {
-            "NukaCode\\Barcode\\": "barcode/src/NukaCode/Barcode"
+            "NukaCode\\Barcode\\": "src/NukaCode/Barcode"
         }
     },
     "minimum-stability": "dev"
