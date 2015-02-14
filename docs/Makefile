@@ -85,17 +85,17 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/NukaCode.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/NukaCodeBarcode.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/NukaCode.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/NukaCodeBarcode.qhc"
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/NukaCode"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/NukaCode"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/NukaCodeBarcode"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/NukaCodeBarcode"
 	@echo "# devhelp"
 
 epub:
